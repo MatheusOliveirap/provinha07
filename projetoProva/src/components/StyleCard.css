@@ -1,0 +1,28 @@
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.BordaCafe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 256px;
+  height: 310px;
+  background: #f3f2f2;
+  position: relative;
+  border-top-right-radius: 36px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 6px;
+}
+
+.BordaCafe img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
